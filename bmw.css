@@ -1,0 +1,44 @@
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 25px;
+    margin: 0px;
+    
+}
+.menu li {
+    font-size: large;
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+.menu{
+    background: linear-gradient(white, white);
+    backdrop-filter: blur(10px);
+}
+body {
+    background: rgb(198, 200, 201);
+}
+h1 { 
+    font-family: 'Arial', 'Times New Roman', sans-serif;
+  }
+h2 { 
+    font-family: 'Arial', 'Times New Roman', sans-serif;
+  }
+p {
+    font-family: 'Arial';
+    font-size: 25px;
+}
+button {
+    border: 2px solid #2a4bc1; /* Параметры рамки */
+    background: #cbceea; /* Цвет фона */
+    font-size: 14px; /* Размер текста */
+    padding: 5px 20px; /* Поля вокруг текста */
+   }

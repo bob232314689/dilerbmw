@@ -1,0 +1,33 @@
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 25px;
+    margin: 0px;
+    
+}
+.menu li {
+    font-size: large;
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+.menu{
+    background: linear-gradient(white, white);
+    backdrop-filter: blur(10px);
+}
+body {
+    background: rgb(198, 200, 201);
+}
+p {
+    font-family: 'Arial';
+    font-size: 90px;
+}
+
